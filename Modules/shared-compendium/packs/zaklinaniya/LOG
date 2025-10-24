@@ -1,3 +1,24 @@
-2025/10/11-08:45:38.151869 fbdff9e0f060 Recovering log #47
-2025/10/11-08:45:38.157025 fbdff9e0f060 Delete type=0 #47
-2025/10/11-08:45:38.157079 fbdff9e0f060 Delete type=3 #46
+2025/10/24-19:13:14.075113 f4a44540f060 Recovering log #157
+2025/10/24-19:13:14.083794 f4a44540f060 Level-0 table #160: started
+2025/10/24-19:13:14.093866 f4a44540f060 Level-0 table #160: 647747 bytes OK
+2025/10/24-19:13:14.098117 f4a44540f060 Delete type=0 #157
+2025/10/24-19:13:14.098185 f4a44540f060 Delete type=3 #156
+2025/10/24-19:14:02.859405 f4a43b20f060 Level-0 table #163: started
+2025/10/24-19:14:02.859428 f4a43b20f060 Level-0 table #163: 0 bytes OK
+2025/10/24-19:14:02.862041 f4a43b20f060 Delete type=0 #161
+2025/10/24-19:14:02.866789 f4a43b20f060 Manual compaction at level-0 from '!folders!7Bb7O5NA0cW0l45C' @ 72057594037927935 : 1 .. '!items.effects!xQ91xok5oagJunt3.6IM8Pi0gT7K6gHpZ' @ 0 : 0; will stop at '!items.effects!wcdnyvcNqS79XFDN.MLvl6ZKnY1Omwf5G' @ 724 : 1
+2025/10/24-19:14:02.866800 f4a43b20f060 Compacting 1@0 + 1@1 files
+2025/10/24-19:14:02.872736 f4a43b20f060 Generated table #164@0: 60 keys, 135387 bytes
+2025/10/24-19:14:02.872755 f4a43b20f060 Compacted 1@0 + 1@1 files => 135387 bytes
+2025/10/24-19:14:02.874619 f4a43b20f060 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/24-19:14:02.874691 f4a43b20f060 Delete type=2 #154
+2025/10/24-19:14:02.874813 f4a43b20f060 Delete type=2 #160
+2025/10/24-19:14:02.880337 f4a43b20f060 Manual compaction at level-0 from '!items.effects!wcdnyvcNqS79XFDN.MLvl6ZKnY1Omwf5G' @ 724 : 1 .. '!items.effects!xQ91xok5oagJunt3.6IM8Pi0gT7K6gHpZ' @ 0 : 0; will stop at (end)
+2025/10/24-19:14:02.893407 f4a43b20f060 Manual compaction at level-1 from '!folders!7Bb7O5NA0cW0l45C' @ 72057594037927935 : 1 .. '!items.effects!xQ91xok5oagJunt3.6IM8Pi0gT7K6gHpZ' @ 0 : 0; will stop at '!items.effects!wcdnyvcNqS79XFDN.MLvl6ZKnY1Omwf5G' @ 724 : 1
+2025/10/24-19:14:02.893417 f4a43b20f060 Compacting 1@1 + 1@2 files
+2025/10/24-19:14:02.902956 f4a43b20f060 Generated table #165@1: 220 keys, 421841 bytes
+2025/10/24-19:14:02.902973 f4a43b20f060 Compacted 1@1 + 1@2 files => 421841 bytes
+2025/10/24-19:14:02.904964 f4a43b20f060 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/10/24-19:14:02.905074 f4a43b20f060 Delete type=2 #158
+2025/10/24-19:14:02.905194 f4a43b20f060 Delete type=2 #164
+2025/10/24-19:14:02.905283 f4a43b20f060 Manual compaction at level-1 from '!items.effects!wcdnyvcNqS79XFDN.MLvl6ZKnY1Omwf5G' @ 724 : 1 .. '!items.effects!xQ91xok5oagJunt3.6IM8Pi0gT7K6gHpZ' @ 0 : 0; will stop at (end)

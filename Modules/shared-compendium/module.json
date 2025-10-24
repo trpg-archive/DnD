@@ -1,181 +1,203 @@
 {
-    "id": "shared-compendium",
-    "name": "shared-compendium",
-    "title": "Shared compendium",
-    "description": "A collection of my content",
-    "version": "1.0.2",
-    "authors": [
+  "id": "shared-compendium",
+  "title": "Shared compendium",
+  "description": "<p>Настроенные штучки </p>",
+  "version": "1.0.3",
+  "authors": [
+    {
+      "name": "SnowKorshun",
+      "discord": "snowkorshun",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "packFolders": [
+    {
+      "name": "🐺Shared Compendium🦅",
+      "sorting": "m",
+      "color": "#113ea6",
+      "folders": [
         {
-            "name": "SnowKorshun",
-            "discord": "snowkorshun",
-            "url": ""
+          "name": "Ширма Мастера",
+          "sorting": "m",
+          "folders": [
+            {
+              "name": "Справочник",
+              "sorting": "m",
+              "packs": [
+                "shirma-mastera"
+              ],
+              "color": null,
+              "folders": []
+            },
+            {
+              "name": "Бестиарий",
+              "sorting": "m",
+              "packs": [
+                "bestiarij",
+                "osobennosti-monstrov"
+              ],
+              "color": null,
+              "folders": []
+            }
+          ],
+          "color": null,
+          "packs": []
+        },
+        {
+          "name": "Для игроков",
+          "sorting": "m",
+          "folders": [
+            {
+              "name": "Заклинания",
+              "sorting": "m",
+              "packs": [
+                "zaklinaniya",
+                "prizyvnye-sushnosti"
+              ],
+              "color": null,
+              "folders": []
+            },
+            {
+              "name": "Предметы",
+              "sorting": "m",
+              "packs": [
+                "snaryazhenie",
+                "magicheskie-predmety",
+                "zelya"
+              ],
+              "color": null,
+              "folders": []
+            }
+          ],
+          "color": null,
+          "packs": []
         }
-    ],
-    "minimumCoreVersion": "12",
-    "compatibleCoreVersion": "13",
-    "compatibility": {
-        "minimum": "12",
-        "verified": "13"
+      ],
+      "packs": []
+    }
+  ],
+  "packs": [
+    {
+      "name": "shirma-mastera",
+      "label": "Ширма Мастера",
+      "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_dm_screen.webp",
+      "path": "packs/shirma-mastera",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
-	"packFolders": [
-		{
-			"name": "🐺Shared Compendium🦅",
-			"sorting": "m",
-			"color": "#113ea6",
-			"folders": [
-				{
-					"name": "Ширма Мастера",
-					"sorting": "m",
-					"folders": [
-							{
-								"name": "Справочник",
-								"sorting": "m",
-								"packs": [
-									"shirma-mastera"
-								]
-							},
-							{
-								"name": "Бестиарий",
-								"sorting": "m",
-								"packs": [
-								"bestiarij",
-								"osobennosti-monstrov"
-								]
-							}
-						]
-				},
-				{
-					"name": "Для игроков",
-					"sorting": "m",
-					"folders": [
-							{
-								"name": "Заклинания",
-								"sorting": "m",
-								"packs": [
-									"zaklinaniya",
-									"prizyvnye-sushnosti"
-								]
-							},
-							{
-								"name": "Предметы",
-								"sorting": "m",
-								"packs": [
-								"snaryazhenie",
-								"magicheskie-predmety",
-								"zelya"
-								]
-							}
-						]
-				}
-			]
-		}
-	],
-    "packs": [
-        {
-            "name": "shirma-mastera",
-            "label": "Ширма Мастера",
-            "path": "packs/shirma-mastera",
-            "type": "JournalEntry",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_dm_screen.webp",
-            "flags": {}
-        },
-        {
-            "name": "bestiarij",
-            "label": "Бестиарий",
-            "path": "packs/bestiarij",
-            "type": "Actor",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "NONE",
-                "ASSISTANT": "OWNER"
-            },
-            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_bestiary.webp",
-            "flags": {}
-        },
-        {
-            "name": "osobennosti-monstrov",
-            "label": "Особенности монстров",
-            "path": "packs/osobennosti-monstrov",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "NONE",
-                "ASSISTANT": "OWNER"
-            },
-            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_monster_features.webp",
-            "flags": {}
-        },
-        {
-            "name": "zaklinaniya",
-            "label": "Заклинания",
-            "path": "packs/zaklinaniya",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_spells.webp",
-            "flags": {}
-        },
-        {
-            "name": "prizyvnye-sushnosti",
-            "label": "Призывные сущности",
-            "path": "packs/prizyvnye-sushnosti",
-            "type": "Actor",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_summoned_entities.webp",
-            "flags": {}
-        },
-        {
-            "name": "snaryazhenie",
-            "label": "Снаряжение",
-            "path": "packs/snaryazhenie",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_equipment.webp",
-            "flags": {}
-        },
-        {
-            "name": "magicheskie-predmety",
-            "label": "Магические предметы",
-            "path": "packs/magicheskie-predmety",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_magic_items.webp",
-            "flags": {}
-        },
-        {
-            "name": "zelya",
-            "label": "Зелья",
-            "path": "packs/zelya",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                 "PLAYER": "OBSERVER",
-                 "ASSISTANT": "OWNER"
-                 },
-            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_potion.webp",
-            "flags": {}
-        }
-    ],
-    "manifest": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.2/Modules/shared-compendium/module.json",
-    "download": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.2/Modules/shared-compendium/shared-compendium.zip"
-  }
+    {
+      "name": "bestiarij",
+      "label": "Бестиарий",
+      "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_bestiary.webp",
+      "path": "packs/bestiarij",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "osobennosti-monstrov",
+      "label": "Особенности монстров",
+      "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_monster_features.webp",
+      "path": "packs/osobennosti-monstrov",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "zaklinaniya",
+      "label": "Заклинания",
+      "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_spells.webp",
+      "path": "packs/zaklinaniya",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "prizyvnye-sushnosti",
+      "label": "Призывные сущности",
+      "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_summoned_entities.webp",
+      "path": "packs/prizyvnye-sushnosti",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "snaryazhenie",
+      "label": "Снаряжение",
+      "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_equipment.webp",
+      "path": "packs/snaryazhenie",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "magicheskie-predmety",
+      "label": "Магические предметы",
+      "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_magic_items.webp",
+      "path": "packs/magicheskie-predmety",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "zelya",
+      "label": "Зелья",
+      "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_potion.webp",
+      "path": "packs/zelya",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.3/Modules/shared-compendium/module.json",
+  "download": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.3/Modules/shared-compendium/shared-compendium.zip",
+  "relationships": {
+    "requires": [
+      {
+        "id": "ATL",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "flags": {}
+}
