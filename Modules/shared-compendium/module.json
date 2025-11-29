@@ -2,7 +2,7 @@
   "id": "shared-compendium",
   "title": "Shared compendium",
   "description": "<p>Настроенные штучки</p>",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "authors": [
     {
       "name": "SnowKorshun",
@@ -67,7 +67,9 @@
               "packs": [
                 "snaryazhenie",
                 "magicheskie-predmety",
-                "zelya"
+                "zelya",
+                "oruzhie",
+                "dospekhi"
               ],
               "color": null,
               "folders": []
@@ -202,8 +204,8 @@
       }
     }
   ],
-  "manifest": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.4/Modules/shared-compendium/module.json",
-  "download": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.4/Modules/shared-compendium/shared-compendium.zip",
+  "manifest": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.5/Modules/shared-compendium/module.json",
+  "download": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.5/Modules/shared-compendium/shared-compendium.zip",
   "relationships": {
     "requires": [
       {
