@@ -1,8 +1,8 @@
 {
   "id": "shared-compendium",
   "title": "Shared compendium",
-  "description": "<p>Настроенные штучки </p>",
-  "version": "1.0.3",
+  "description": "<p>Настроенные штучки</p>",
+  "version": "1.0.4",
   "authors": [
     {
       "name": "SnowKorshun",
@@ -137,19 +137,7 @@
       "type": "Actor",
       "system": "dnd5e",
       "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "snaryazhenie",
-      "label": "Снаряжение",
-      "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_equipment.webp",
-      "path": "packs/snaryazhenie",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "OWNER",
         "ASSISTANT": "OWNER"
       }
     },
@@ -176,10 +164,46 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "oruzhie",
+      "label": "Оружие",
+      "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_weapon.webp",
+      "path": "packs/oruzhie",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "dospekhi",
+      "label": "Доспехи",
+      "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_armor.webp",
+      "path": "packs/dospekhi",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "snaryazhenie",
+      "label": "Снаряжение",
+      "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_equipment_2.webp",
+      "path": "packs/snaryazhenie",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
-  "manifest": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.3/Modules/shared-compendium/module.json",
-  "download": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.3/Modules/shared-compendium/shared-compendium.zip",
+  "manifest": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.4/Modules/shared-compendium/module.json",
+  "download": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.4/Modules/shared-compendium/shared-compendium.zip",
   "relationships": {
     "requires": [
       {
@@ -194,6 +218,11 @@
       },
       {
         "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "vision-5e",
         "type": "module",
         "compatibility": {}
       }
