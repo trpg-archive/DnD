@@ -1,0 +1,120 @@
+{
+    "title": "🦅💲Korshun’s Sundries💲🦅",
+    "id": "korshuns-sundries",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name": "SnowKorshun",
+            "flags": {}
+        }
+    ],
+    "url": null,
+    "compatibility": {
+        "minimum": "11",
+        "verified": "13"
+    },
+    "description": null,
+	"packFolders": [
+    {
+      "name": "🦅💲Korshun’s Sundries💲🦅",
+      "sorting": "m",
+      "color": "#1b0c8d",
+      "packs": [
+	  "odezhda-i-obuv",
+	  "alkhimiya",
+	  "eda-i-napitki",
+	  "domashnie-zhivotnye",
+	  "npc"
+	  ]
+    }
+  ],
+    "packs": [
+        {
+            "label": "Одежда и обувь",
+            "name": "odezhda-i-obuv",
+            "path": "packs/odezhda-i-obuv",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {},
+            "system": "dnd5e"
+        },
+        {
+            "label": "Алхимия",
+            "name": "alkhimiya",
+            "path": "packs/alkhimiya",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {},
+            "system": "dnd5e"
+        },
+        {
+            "label": "Еда и напитки",
+            "name": "eda-i-napitki",
+            "path": "packs/eda-i-napitki",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {},
+            "system": "dnd5e"
+        },
+        {
+            "label": "Домашние животные",
+            "name": "domashnie-zhivotnye",
+            "path": "packs/domashnie-zhivotnye",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {},
+            "system": "dnd5e"
+        },
+        {
+            "label": "НПС",
+            "name": "npc",
+            "path": "packs/npc",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {},
+            "system": "dnd5e"
+        }
+    ],
+	"manifest": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.1/Modules/korshuns-sundries/module.json",
+	"download": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.1/Modules/korshuns-sundries/korshuns-sundries.zip",
+	"relationships": {
+    "requires": [
+      {
+        "id": "ATL",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "vision-5e",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "flags": {}
+}
