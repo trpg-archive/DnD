@@ -1,8 +1,8 @@
 {
-    "id": "shared-compendium",
+    "id": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
     "title": "🐺Shared compendium🦅",
     "description": "<p>Настроенные штучки</p>",
-    "version": "1.0.8",
+    "version": "1.0.10",
     "authors": [
         {
             "name": "SnowKorshun",
@@ -66,7 +66,6 @@
                             "name": "Предметы",
                             "sorting": "m",
                             "packs": [
-                                "snaryazhenie",
                                 "magicheskie-predmety",
                                 "zelya",
                                 "oruzhie",
@@ -99,7 +98,7 @@
                 "ASSISTANT": "OWNER"
             }
         },
-		{
+        {
             "name": "tablitsy",
             "label": "Таблицы",
             "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_tables_3.webp",
@@ -208,18 +207,6 @@
             "system": "dnd5e"
         },
         {
-            "name": "snaryazhenie",
-            "label": "Снаряжение",
-            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_equipment_2.webp",
-            "path": "packs/snaryazhenie",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        },
-        {
             "name": "instrumenty",
             "label": "Инструменты",
             "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_tools_3.webp",
@@ -256,8 +243,8 @@
             }
         }
     ],
-    "manifest": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.8/Modules/shared-compendium/module.json",
-    "download": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.8/Modules/shared-compendium/shared-compendium.zip",
+    "manifest": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.10/Modules/shared-compendium/module.json",
+    "download": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.10/Modules/shared-compendium/shared-compendium.zip",
     "relationships": {
         "requires": [
             {
