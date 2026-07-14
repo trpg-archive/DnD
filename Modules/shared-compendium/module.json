@@ -2,7 +2,7 @@
     "id": "shared-compendium",
     "title": "🐺Shared compendium🦅",
     "description": "<p>Модуль, который пытается собрать в себе настроенные для игры вещи. Пока что это предметы, заклинания и монстры.</p>",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "authors": [
         {
             "name": "SnowKorshun",
@@ -304,8 +304,8 @@
             }
         }
     ],
-    "manifest": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.11/Modules/shared-compendium/module.json",
-    "download": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.11/Modules/shared-compendium/shared-compendium.zip",
+    "manifest": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.12/Modules/shared-compendium/module.json",
+    "download": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.12/Modules/shared-compendium/shared-compendium.zip",
     "relationships": {
         "requires": [
             {
