@@ -1,8 +1,8 @@
 {
-    "id": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "id": "korshuns-compendium",
     "title": "🐺Shared compendium🦅",
     "description": "<p>Модуль, который пытается собрать в себе настроенные для игры вещи. Пока что это предметы, заклинания и монстры.</p>",
-    "version": "1.0.13",
+    "version": "1.0.14",
     "authors": [
         {
             "name": "SnowKorshun",
@@ -28,7 +28,7 @@
 						{
                             "name": "Персонажи",
                             "sorting": "m",
-							"color": "#FF3F82",
+							"color": "#fe0058",
                             "packs": [
                                 "klassy-i-podklassy",
                                 "rasy",
@@ -40,7 +40,7 @@
                         {
                             "name": "Заклинания",
                             "sorting": "m",
-							"color": "#FE0058",
+							"color": "#b80040",
                             "packs": [
                                 "zaklinaniya",
                                 "prizyvnye-sushnosti"
@@ -258,7 +258,7 @@
         {
             "name": "rasy",
             "label": "Расы",
-            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_goods_3.webp",
+            "banner": "-",
             "path": "packs/rasy",
             "type": "Item",
             "system": "dnd5e",
@@ -270,7 +270,7 @@
         {
             "name": "klassy-i-podklassy",
             "label": "Классы и подклассы",
-            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_goods_3.webp",
+            "banner": "-",
             "path": "packs/klassy-i-podklassy",
             "type": "Item",
             "system": "dnd5e",
@@ -282,7 +282,7 @@
         {
             "name": "osobennosti-personazhej",
             "label": "Особенности Персонажей",
-            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_goods_3.webp",
+            "banner": "-",
             "path": "packs/osobennosti-personazhej",
             "type": "Item",
             "system": "dnd5e",
@@ -294,7 +294,7 @@
         {
             "name": "proishozhdeniya",
             "label": "Происхождения",
-            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_goods_3.webp",
+            "banner": "-",
             "path": "packs/proishozhdeniya",
             "type": "Item",
             "system": "dnd5e",
@@ -304,8 +304,8 @@
             }
         }
     ],
-    "manifest": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.13/Modules/shared-compendium/module.json",
-    "download": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.13/Modules/shared-compendium/shared-compendium.zip",
+    "manifest": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.14/Modules/shared-compendium/module.json",
+    "download": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.14/Modules/shared-compendium/shared-compendium.zip",
     "relationships": {
         "requires": [
             {
