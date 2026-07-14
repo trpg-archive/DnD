@@ -1,8 +1,8 @@
 {
-    "id": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "id": "shared-compendium",
     "title": "🐺Shared compendium🦅",
-    "description": "<p>Настроенные штучки</p>",
-    "version": "1.0.10",
+    "description": "<p>Модуль, который пытается собрать в себе настроенные для игры вещи. Пока что это предметы, заклинания и монстры.</p>",
+    "version": "1.0.11",
     "authors": [
         {
             "name": "SnowKorshun",
@@ -12,7 +12,7 @@
     ],
     "compatibility": {
         "minimum": "12",
-        "verified": "13"
+        "verified": "14"
     },
     "packFolders": [
         {
@@ -20,52 +20,39 @@
             "sorting": "m",
             "color": "#113ea6",
             "folders": [
-                {
-                    "name": "Ширма Мастера",
+				{
+                    "name": "Для игроков",
                     "sorting": "m",
+					"color": "#C9265F",
                     "folders": [
-                        {
-                            "name": "Справочник",
+						{
+                            "name": "Персонажи",
                             "sorting": "m",
+							"color": "#FF3F82",
                             "packs": [
-                                "shirma-mastera",
-                                "tablitsy"
+                                "klassy-i-podklassy",
+                                "rasy",
+                                "osobennosti-personazhej",
+                                "proishozhdeniya"
                             ],
-                            "color": null,
                             "folders": []
                         },
                         {
-                            "name": "Бестиарий",
-                            "sorting": "m",
-                            "packs": [
-                                "bestiarij",
-                                "osobennosti-monstrov"
-                            ],
-                            "color": null,
-                            "folders": []
-                        }
-                    ],
-                    "color": null,
-                    "packs": []
-                },
-                {
-                    "name": "Для игроков",
-                    "sorting": "m",
-                    "folders": [
-                        {
                             "name": "Заклинания",
                             "sorting": "m",
+							"color": "#FE0058",
                             "packs": [
                                 "zaklinaniya",
                                 "prizyvnye-sushnosti"
                             ],
-                            "color": null,
                             "folders": []
                         },
                         {
                             "name": "Предметы",
                             "sorting": "m",
+							"color": "#8E0032",
                             "packs": [
+                                "snaryazhenie",
                                 "magicheskie-predmety",
                                 "zelya",
                                 "oruzhie",
@@ -74,11 +61,37 @@
                                 "transport",
                                 "tovary"
                             ],
-                            "color": null,
                             "folders": []
                         }
                     ],
-                    "color": null,
+                    "packs": []
+                },
+                {
+                    "name": "Ширма Мастера",
+                    "sorting": "m",
+					"color": "#A0189C",
+                    "folders": [
+						{
+                            "name": "Бестиарий",
+                            "sorting": "m",
+							"color": "#750072",
+                            "packs": [
+                                "bestiarij",
+                                "osobennosti-monstrov"
+                            ],
+                            "folders": []
+                        },
+                        {
+                            "name": "Справочник",
+                            "sorting": "m",
+							"color": "#4C004A",
+                            "packs": [
+                                "shirma-mastera",
+                                "tablitsy"
+                            ],
+                            "folders": []
+                        }
+                    ],
                     "packs": []
                 }
             ],
@@ -241,10 +254,58 @@
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
             }
+        },
+        {
+            "name": "rasy",
+            "label": "Расы",
+            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_goods_3.webp",
+            "path": "packs/rasy",
+            "type": "Item",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "klassy-i-podklassy",
+            "label": "Классы и подклассы",
+            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_goods_3.webp",
+            "path": "packs/klassy-i-podklassy",
+            "type": "Item",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "osobennosti-personazhej",
+            "label": "Особенности Персонажей",
+            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_goods_3.webp",
+            "path": "packs/osobennosti-personazhej",
+            "type": "Item",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "proishozhdeniya",
+            "label": "Происхождения",
+            "banner": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/heads/main/Arts/Banners/Banner_goods_3.webp",
+            "path": "packs/proishozhdeniya",
+            "type": "Item",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
         }
     ],
-    "manifest": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.10/Modules/shared-compendium/module.json",
-    "download": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.10/Modules/shared-compendium/shared-compendium.zip",
+    "manifest": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.11/Modules/shared-compendium/module.json",
+    "download": "https://raw.githubusercontent.com/trpg-archive/DnD/refs/tags/v1.0.11/Modules/shared-compendium/shared-compendium.zip",
     "relationships": {
         "requires": [
             {
