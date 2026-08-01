@@ -1,0 +1,7 @@
+2026/08/01-11:11:52.027 47e0 Recovering log #1245
+2026/08/01-11:11:52.029 47e0 Delete type=0 #1245
+2026/08/01-11:11:52.029 47e0 Delete type=3 #1244
+2026/08/01-11:19:00.346 2fb8 Level-0 table #1249: started
+2026/08/01-11:19:00.346 2fb8 Level-0 table #1249: 0 bytes OK
+2026/08/01-11:19:00.346 2fb8 Delete type=0 #1247
+2026/08/01-11:19:00.346 2fb8 Manual compaction at level-0 from '!folders!DCtlor0LIOSoBg3w' @ 72057594037927935 : 1 .. '!journal.pages!sdhSpgdACnw7YwBC.liqjTqiiHVJJRLGV' @ 0 : 0; will stop at (end)
